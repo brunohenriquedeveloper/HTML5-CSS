@@ -37,7 +37,7 @@ Grandes Telas: acima de 1200px
 }
 
 
-@media and (min-width:769px) and (max-width:1024px) { /* Tablet */ 
+@media (min-width:769px) and (max-width:1024px) { /* Tablet */ 
     
     body {
         background-image: url(../imagens/back-tablet.jpg);
@@ -51,7 +51,7 @@ Grandes Telas: acima de 1200px
 
 }
 
-@media  and (min-width:1025px) and (max-width:1200px) { /* Desktop */
+@media (min-width:1025px) and (max-width:1200px) { /* Desktop */
 
     body{
         background-image:url(../imagens/back-pc.jpg)
@@ -67,13 +67,13 @@ Grandes Telas: acima de 1200px
     
 }
 
-@media  and (min-width:1200px) { /* Grandes Telas */
+@media (min-width:1200px) { /* Grandes Telas */
     body{
         background-image:url(../imagens/back-tv.jpg)
     }
 
     img#itel {display: none;}
-    img#itab{display: block;}
+    img#itab{display: none;}
     img#ipri{display: none;}
     img#ipc{display: none;}
     img#itv{display: block;}
